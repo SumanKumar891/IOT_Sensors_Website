@@ -56695,7 +56695,7 @@ $1(a){return new A.xu(null)},
 $S:398}
 A.zm.prototype={
 P(a0){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=A.yl(B.cS,new A.kh("./../assets/assets/images/Front_bg_Final.png",i,i)),g=t.p,f=A.q7(A.eM(B.ax,A.b([new A.bd(new A.aj(10,10,10,10),A.cC(A.b([A.f9("assets/images/awadh_logo.jpeg",i,55,i),A.fF(A.al("Home",i,i,i,i,i,i,i),new A.ap3(a0),i),A.fF(A.al("CPS Lab Hardwares",i,i,i,i,i,i,i),new A.ap4(a0),i),A.fF(A.al("CPS Lab Tutorial",i,i,i,i,i,i,i),new A.ap5(a0),i),A.fF(A.al("About Us",i,i,i,i,i,i,i),new A.ap6(a0),i)],g),B.v,i,B.h8,B.m,i),i)],g),B.F,B.au,i),i,5,new A.aj(10,10,10,10)),e=A.aY(i,20,i),d=A.aY(i,20,i),c=A.al("Agriculture & Water Technology Development Hub (AWaDH)",i,i,i,A.bS(i,i,B.p,i,i,i,i,i,"FontMain",i,i,40,i,i,B.aG,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),b=A.aY(i,20,i),a=t.Yx
-a=A.af(new A.ay(A.b(["iot_lab.png","Awadh_logo_New-removebg-preview.png","Deployment_images_front-removebg-preview.png","Iot_logo_Picture_final-removebg-preview.png","awadh_banner.jpeg"],t.s),new A.ap7(),a),!0,a.j("b1.E"))
+a=A.af(new A.ay(A.b(["iot_lab.png","Awadh_logo_New-removebg-preview.png","New_deployment_pic-removebg-preview.png","Iot_logo_Picture_final-removebg-preview.png","awadh_banner.jpeg"],t.s),new A.ap7(),a),!0,a.j("b1.E"))
 s=a.length
 r=A.aY(i,25,i)
 q=A.cC(A.b([A.eX(B.k,i,i,A.fZ(B.m6,i,i,i),i,new A.ap8(j),i,i,i),A.aY(i,i,25),A.eX(B.k,i,i,A.fZ(B.Mj,i,i,i),i,new A.ap9(j),i,i,i)],g),B.v,i,B.aN,B.m,i)
