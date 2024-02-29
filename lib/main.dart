@@ -70,6 +70,7 @@ class MyHomePage extends StatelessWidget {
               Card(
                 elevation: 5,
                 margin: EdgeInsets.all(10),
+                
                 child: Stack(
                   children: [
                     Padding(
@@ -85,25 +86,53 @@ class MyHomePage extends StatelessWidget {
                             onPressed: () {
                               Navigator.pushNamed(context, '/home');
                             },
-                            child: Text('Home'),
+                            style: ElevatedButton.styleFrom(
+                backgroundColor: Color.fromARGB(255, 247, 216, 178), // Set the background color of the button
+              ),
+                            child: Text('Home',
+                            style: TextStyle(
+                              color: Colors.black
+                            ),),
+                            
+                          
                           ),
                           ElevatedButton(
                             onPressed: () {
                               Navigator.pushNamed(context, '/cps_lab_hardware');
                             },
-                            child: Text('CPS Lab Hardwares'),
+                            style: ElevatedButton.styleFrom(
+                backgroundColor: Color.fromARGB(255, 247, 216, 178), // Set the background color of the button
+              ),
+                            child: Text('CPS Lab Hardwares',
+                            style: TextStyle(
+                              color: Colors.black
+                            ),),
+                            
                           ),
                           ElevatedButton(
                             onPressed: () {
                               Navigator.pushNamed(context, '/cpsLab');
                             },
-                            child: Text('CPS Lab Tutorial'),
+                            style: ElevatedButton.styleFrom(
+                backgroundColor: Color.fromARGB(255, 247, 216, 178), // Set the background color of the button
+              ),
+                            child: Text('CPS Lab Tutorial',
+                            style: TextStyle(
+                              color: Colors.black
+                            ),),
                           ),
                           ElevatedButton(
                             onPressed: () {
                               Navigator.pushNamed(context, '/aboutUs');
                             },
-                            child: Text('About Us'),
+                            style: ElevatedButton.styleFrom(
+                backgroundColor: Color.fromARGB(255, 247, 216, 178), // Set the background color of the button
+              ),
+                            child: Text('About Us',
+                            style: TextStyle(
+                              color: Colors.black
+                            ),
+                            ),
                           ),
                         ],
                       ),
