@@ -142,7 +142,7 @@ class MyHomePage extends StatelessWidget {
                       items: [
                         'iot_lab.png',
                         'Awadh_logo_New-removebg-preview.png',
-                        'Deployment_images_front-removebg-preview.png',
+                        'New_deployment_pic-removebg-preview.png',
                         'Iot_logo_Picture_final-removebg-preview.png',
                         'awadh_banner.jpeg',
                       ].map((image) {
