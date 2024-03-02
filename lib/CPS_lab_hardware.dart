@@ -208,7 +208,7 @@ class CPSLabSetupPage extends StatelessWidget {
                       title: 'LIS3DH Sensor Board',
 
                       description: 'The LIS3DH is an ultra-low-power high performance three-axis linear accelerometer belonging to the “nano” family, with digital I2C/SPI serial interface standard output. ',
-                      imagePath: 'assets/images/Power_Profiler_Kit-removebg-preview.png',
+                      imagePath: 'assets/images/LIS3DH_Sensor_Board-removebg-preview.png',
                     ),
                    
                     HardwareDescriptionTile(
@@ -222,7 +222,7 @@ class CPSLabSetupPage extends StatelessWidget {
 
 
                       description: 'An audio signaling device like a buzzer sensor has the main function of this is to convert the signal from audio to sound. ',
-                      imagePath: 'assets/images/Buzzer_Board-removebg-preview (1).png',
+                      imagePath: 'assets/images/Buzzer_Board-removebg-preview.png',
                     ),
                     HardwareDescriptionTile(
                       title: 'W25Q16 Memory',
@@ -234,7 +234,7 @@ class CPSLabSetupPage extends StatelessWidget {
                       title: 'Lux Sensor',
 
                       description: 'Lux Sensor is a high accuracy ambient light digital 16-bit resolution sensor in a miniature transparent 6.8 mm x 3.0 mm x 2.5 mm package. ',
-                      imagePath: 'assets/images/Lux Sensor.png',
+                      imagePath: 'assets/images/Lux_Sensor.png',
                     ),
                      HardwareDescriptionTile(
                       title: 'Co2 Monitor Device',
