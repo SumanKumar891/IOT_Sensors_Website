@@ -155,7 +155,7 @@ class CPSLabSetupPage extends StatelessWidget {
                     HardwareDescriptionTile(
                       title: 'Sensors/Weather monitoring system/Activity monitor System/Environment monitoring System',
                       description: 'Sensors come in the breakout boards. They have pins on them, which are used for supplying the power, providing ground, receiving inputs, and sending outputs.',
-                      imagePath: 'assets/images/weather_sensor_boards_new-removebg-preview.png',
+                      imagePath: 'assets/images/Weather_Monitoring_Sensor_System-removebg-preview.png',
                     ),
                     HardwareDescriptionTile(
                       title: 'UART to USB Converter',
@@ -171,6 +171,82 @@ class CPSLabSetupPage extends StatelessWidget {
                       title: 'Power Profiler Kit',
                       description: 'It is important to optimize the power consumption of the CPS system. This system helps in measure the power consumption of the same. ',
                       imagePath: 'assets/images/Power_Profiler_Kit-removebg-preview.png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'Relay Network Node',
+                      description: 'A relay network node plays a critical role in communication systems by facilitating the transmission of data between different points within a network.',
+                      imagePath: 'assets/images/relay_image-removebg-preview.png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'Activity/Vibration Monitor Kit',
+                      description: 'An activity monitor using Bluetooth Low Energy (BLE) is a wearable device or sensor that tracks and monitors various aspects of a users physical activity and health. ',
+                      imagePath: 'assets/images/Activity_Monitor_Kit-removebg-preview.png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'Solar Panel ',
+                      description: 'A solar panel is a device that converts sunlight into electricity by using photovoltaic (PV) cells. PV cells are made of materials that generate electrons when exposed to light. ',
+                      imagePath: 'assets/images/Solar_Panel-removebg-preview.png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'Battery',
+
+                      description: 'A LiPo (Lithium Polymer) battery, also known as Li-Po or LiPoly battery, is a type of rechargeable battery commonly used in consumer electronics, RC (remote control) vehicles, drones, and other applications where lightweight and high-energy-density power sources are required ',
+                      imagePath: 'assets/images/Battery-removebg-preview.png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'SHT40 Sensor Board',
+                      description: 'The sensor module is equipped with a SHT40 humidity and temperature output via an I2C interface. ',
+                      imagePath: 'assets/images/SHT40_Sensor_Board-removebg-preview.png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'STTS751 Sensor Board',
+
+                      description: 'The STTS751 is a digital temperature sensor which communicates over a 2-wire SMBus 2.0 compatible bus. ',
+                      imagePath: 'assets/images/STTS751_Sensor_Board-removebg-preview.png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'LIS3DH Sensor Board',
+
+                      description: 'The LIS3DH is an ultra-low-power high performance three-axis linear accelerometer belonging to the “nano” family, with digital I2C/SPI serial interface standard output. ',
+                      imagePath: 'assets/images/Power_Profiler_Kit-removebg-preview.png',
+                    ),
+                   
+                    HardwareDescriptionTile(
+                      title: 'LCD Display',
+
+                      description: 'This lovely little 1.8 Inch SPI 128×160 TFT LCD Display Module with PCB for Arduino is the best way to add a small, colorful and bright display to any project. ',
+                      imagePath: 'assets/images/LCD_Display-removebg-preview.png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'Buzzer Board',
+
+
+                      description: 'An audio signaling device like a buzzer sensor has the main function of this is to convert the signal from audio to sound. ',
+                      imagePath: 'assets/images/Buzzer_Board-removebg-preview (1).png',
+                    ),
+                    HardwareDescriptionTile(
+                      title: 'W25Q16 Memory',
+
+                      description: 'The W25Q16 (16M-bit), and W25Q32 (32M-bit) Serial Flash memories provide a storage solution for systems with limited space, pins and power. ',
+                      imagePath: 'assets/images/W25Q16_Memory-removebg-preview.png',
+                    ),
+                     HardwareDescriptionTile(
+                      title: 'Lux Sensor',
+
+                      description: 'Lux Sensor is a high accuracy ambient light digital 16-bit resolution sensor in a miniature transparent 6.8 mm x 3.0 mm x 2.5 mm package. ',
+                      imagePath: 'assets/images/Lux Sensor.png',
+                    ),
+                     HardwareDescriptionTile(
+                      title: 'Co2 Monitor Device',
+
+                      description: 'CO2 sensor using the NRF52 series microcontroller offers a cost-effective and scalable solution for monitoring air quality in indoor environments, smart buildings, and IoT applications. ',
+                      imagePath: 'assets/images/Co2_Monitor_Device-removebg-preview.png',
+                    ),
+                     HardwareDescriptionTile(
+                      title: 'Acoustic Module Node',
+
+                      description: 'An acoustic module sensor is a sophisticated device used to detect and analyze sound waves in various applications, ranging from industrial monitoring to environmental sensing and even in consumer electronics. ',
+                      imagePath: 'assets/images/Acoustic_Module_Node-removebg-preview.png',
                     ),
                  ],
                       ),
