@@ -155,7 +155,7 @@ class CPSLabSetupPage extends StatelessWidget {
                     HardwareDescriptionTile(
                       title: 'Sensors/Weather monitoring system/Activity monitor System/Environment monitoring System',
                       description: 'Sensors come in the breakout boards. They have pins on them, which are used for supplying the power, providing ground, receiving inputs, and sending outputs.',
-                      imagePath: 'assets/images/Weather_Monitoring_Sensor_System-removebg-preview.png',
+                      imagePath: 'assets/images/weather_sensor_boards_new-removebg-preview.png',
                     ),
                     HardwareDescriptionTile(
                       title: 'UART to USB Converter',
