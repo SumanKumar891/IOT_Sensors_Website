@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  @override
+  @override 
   _MyHomePageState createState() => _MyHomePageState();
 }
 
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
-                margin: EdgeInsets.only(top: 70, left:115, right: 115),
+                margin: EdgeInsets.only(top: 90, left:165, right: 165),
                 child: 
               Card(
                 elevation: 5,
@@ -205,7 +205,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ).toList(),
                     ),
              Container(
-                margin: EdgeInsets.only(bottom: 170, left:115, right: 115),
+                margin: EdgeInsets.only(bottom: 170, left:165, right: 165),
                 child: 
               
               
@@ -216,7 +216,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: EdgeInsets.all(10),
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainA22xisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           
                           ElevatedButton(

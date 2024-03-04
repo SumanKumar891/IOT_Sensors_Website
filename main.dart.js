@@ -56695,7 +56695,7 @@ r=A.fa(j,j,A.v(255,247,216,178),j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)
 r=A.f9(A.aj("CPS Lab Tutorial",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),new A.aIT(a),r)
 q=A.fa(j,j,A.v(255,247,216,178),j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)
 p=t.p
-q=A.b8(j,A.q8(A.eE(B.au,A.b([new A.b9(new A.ak(10,10,10,10),A.cG(A.b([h,g,s,r,A.f9(A.aj("About Us",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),new A.aIU(a),q)],p),B.v,j,B.h8,B.n,j),j)],p),B.F,B.at,j),j,5,new A.ak(10,10,10,10)),B.j,j,j,j,j,j,new A.ak(115,70,115,0),j,j,j,j)
+q=A.b8(j,A.q8(A.eE(B.au,A.b([new A.b9(new A.ak(10,10,10,10),A.cG(A.b([h,g,s,r,A.f9(A.aj("About Us",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),new A.aIU(a),q)],p),B.v,j,B.h8,B.n,j),j)],p),B.F,B.at,j),j,5,new A.ak(10,10,10,10)),B.j,j,j,j,j,j,new A.ak(165,90,165,0),j,j,j,j)
 r=A.b5(j,10,j)
 s=A.b5(j,5,j)
 g=A.aj("Agriculture & Water Technology Development Hub (AWaDH)",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,"FontMain",j,j,40,j,j,B.aA,j,j,!0,j,j,j,j,j,j,j,j),j,j,j)
@@ -56707,7 +56707,7 @@ m=A.fa(j,j,A.v(255,255,255,255),j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)
 m=A.f9(A.aj("SENSORS",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,j,j,j,j,j,j,B.aA,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),new A.aIW(a),m)
 l=A.b5(j,j,100)
 k=A.fa(j,j,A.v(255,255,255,255),j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)
-return A.iv(j,A.b8(j,A.jd(A.bU(A.b([q,r,A.b8(j,A.bU(A.b([s,g,h,new A.E9(new A.afr(400,1.7777777777777777,!1,!0),o,this.d,n,j),A.b8(j,A.eE(B.au,A.b([new A.b9(new A.ak(10,10,10,10),A.cG(A.b([m,l,A.f9(A.aj("Contact Us",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),new A.aIX(a),k)],p),B.v,j,B.cD,B.n,j),j)],p),B.F,B.at,j),B.j,j,j,j,j,j,new A.ak(115,0,115,170),j,j,j,j)],p),B.v,j,B.aX,B.n),B.j,j,j,j,j,j,new A.ak(20,0,20,0),j,j,j,j)],p),B.v,j,B.u,B.n),j,new A.Dp(j),j,B.a_),B.j,j,j,new A.ct(j,i,j,j,j,j,B.Y),j,j,j,j,j,j,j))}}
+return A.iv(j,A.b8(j,A.jd(A.bU(A.b([q,r,A.b8(j,A.bU(A.b([s,g,h,new A.E9(new A.afr(400,1.7777777777777777,!1,!0),o,this.d,n,j),A.b8(j,A.eE(B.au,A.b([new A.b9(new A.ak(10,10,10,10),A.cG(A.b([m,l,A.f9(A.aj("Contact Us",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),new A.aIX(a),k)],p),B.v,j,B.cD,B.n,j),j)],p),B.F,B.at,j),B.j,j,j,j,j,j,new A.ak(165,0,165,170),j,j,j,j)],p),B.v,j,B.aX,B.n),B.j,j,j,j,j,j,new A.ak(20,0,20,0),j,j,j,j)],p),B.v,j,B.u,B.n),j,new A.Dp(j),j,B.a_),B.j,j,j,new A.ct(j,i,j,j,j,j,B.Y),j,j,j,j,j,j,j))}}
 A.aIR.prototype={
 $0(){A.e9(this.a,"/home",t.X)},
 $S:0}
