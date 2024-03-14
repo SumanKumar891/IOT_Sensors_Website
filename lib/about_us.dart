@@ -33,7 +33,7 @@ class AboutUsPage extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           Image.asset(
-                            'assets/images/awadh_logo.jpeg',
+                            'assets/images/awadh_logo_super_new.png',
                             height: 55,
                           ),
                           ElevatedButton(

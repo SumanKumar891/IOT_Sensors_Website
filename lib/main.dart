@@ -89,8 +89,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           Image.asset(
-                            'assets/images/awadh_logo.jpeg',
-                            height: 55,
+                            'assets/images/awadh_logo_super_new.png',
+                            height: 65,
                           ),
                           ElevatedButton(
                             onPressed: () {
@@ -177,11 +177,15 @@ class _MyHomePageState extends State<MyHomePage> {
                         enlargeCenterPage: true,
                       ),
                       items: [
-                        'iot_lab.png',
+                        'front_foto-removebg-preview.png',
                         'Awadh_logo_New-removebg-preview.png',
                         'New_deployment_pic-removebg-preview.png',
                         'Iot_logo_Picture_final-removebg-preview.png',
-                        'awadh_banner.jpeg',
+                        'home_page_1.png',
+                        'home_page_2.png',
+                        'home_page_3.png',
+                        'home_page_4.png',
+
                       ].map((image) {
                         return Builder(
                           
@@ -216,7 +220,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Padding(
                       padding: EdgeInsets.all(10),
                       child: Row(
-                        mainA22xisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           
                           ElevatedButton(
