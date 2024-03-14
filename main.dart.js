@@ -56247,7 +56247,7 @@ A.Wf.prototype={
 gA(a){return a.length}}
 A.a1z.prototype={}
 A.xM.prototype={
-P(a){var s,r,q,p,o=this,n=null,m=A.fb("assets/images/awadh_logo_super_new.png",n,55,n),l=A.fa(n,n,A.v(255,247,216,178),n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
+P(a){var s,r,q,p,o=this,n=null,m=A.fb("assets/images/awadhlogo.png",n,55,n),l=A.fa(n,n,A.v(255,247,216,178),n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
 l=A.f9(A.aj("Home",n,n,n,A.bb(n,n,B.l,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),new A.aeK(a),l)
 s=A.fa(n,n,A.v(255,247,216,178),n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
 s=A.f9(A.aj("CPS Lab Hardwares",n,n,n,A.bb(n,n,B.l,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),new A.aeL(a),s)
@@ -56302,7 +56302,7 @@ A.aeN.prototype={
 $0(){A.e9(this.a,"/ContactUS",t.X)},
 $S:5}
 A.xL.prototype={
-P(a){var s,r,q,p,o=null,n=A.fb("assets/images/awadh_logo_super_new.png",o,55,o),m=A.fa(o,o,A.v(255,247,216,178),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
+P(a){var s,r,q,p,o=null,n=A.fb("assets/images/awadhlogo.png",o,55,o),m=A.fa(o,o,A.v(255,247,216,178),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
 m=A.f9(A.aj("Home",o,o,o,A.bb(o,o,B.l,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),new A.aeF(a),m)
 s=A.fa(o,o,A.v(255,247,216,178),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
 s=A.f9(A.aj("CPS Lab Hardwares",o,o,o,A.bb(o,o,B.l,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),new A.aeG(a),s)
@@ -56452,7 +56452,7 @@ s===$&&A.a()
 return A.eT(s)},
 $S:71}
 A.xx.prototype={
-P(a){var s,r,q,p,o=null,n=A.fb("assets/images/awadh_logo_super_new.png",o,55,o),m=A.fa(o,o,A.v(255,247,216,178),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
+P(a){var s,r,q,p,o=null,n=A.fb("assets/images/awadhlogo.png",o,55,o),m=A.fa(o,o,A.v(255,247,216,178),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
 m=A.f9(A.aj("Home",o,o,o,A.bb(o,o,B.l,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),new A.acZ(a),m)
 s=A.fa(o,o,A.v(255,247,216,178),o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o)
 s=A.f9(A.aj("CPS Lab Hardwares",o,o,o,A.bb(o,o,B.l,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),new A.ad_(a),s)
@@ -56687,7 +56687,7 @@ $S:451}
 A.vm.prototype={
 ag(){return new A.a5t(new A.afq(new A.bE(new A.aG($.aQ,t.wC),t.Fe)),B.i)}}
 A.a5t.prototype={
-P(a){var s,r,q,p,o,n,m,l,k,j=null,i=A.u8(B.cT,new A.jy("./../assets/assets/images/back_front_new.png",j,j)),h=A.fb("assets/images/awadh_logo_super_new.png",j,65,j),g=A.fa(j,j,A.v(255,247,216,178),j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)
+P(a){var s,r,q,p,o,n,m,l,k,j=null,i=A.u8(B.cT,new A.jy("./../assets/assets/images/back_front_new.png",j,j)),h=A.fb("assets/images/awadhlogo.png",j,65,j),g=A.fa(j,j,A.v(255,247,216,178),j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)
 g=A.f9(A.aj("Home",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),new A.aIR(a),g)
 s=A.fa(j,j,A.v(255,247,216,178),j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)
 s=A.f9(A.aj("CPS Lab Hardwares",j,j,j,A.bb(j,j,B.l,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),new A.aIS(a),s)
