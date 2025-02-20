@@ -15,10 +15,12 @@ import 'about_us.dart';
 import 'sensor.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp();
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -49,12 +51,12 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  @override 
+  @override
   _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final CarouselController _carouselController = CarouselController();
+  CarouselSliderController carouselController = CarouselSliderController();
   bool showSensorCards = false;
 
   @override
@@ -67,7 +69,6 @@ class _MyHomePageState extends State<MyHomePage> {
             fit: BoxFit.cover,
           ),
         ),
-        
         child: SingleChildScrollView(
           physics: AlwaysScrollableScrollPhysics(),
           scrollDirection: Axis.vertical,
@@ -75,79 +76,81 @@ class _MyHomePageState extends State<MyHomePage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
-                margin: EdgeInsets.only(top: 90, left:165, right: 165),
-                child: 
-              Card(
-                elevation: 5,
-                margin: EdgeInsets.all(10),
-
-                child: Stack(
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.all(10),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: [
-                          Image.asset(
-                            'assets/images/awadhlogo.png',
-                            height: 65,
-                          ),
-                          ElevatedButton(
-                            onPressed: () {
-                              Navigator.pushNamed(context, '/home');
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Color.fromARGB(255, 247, 216, 178),
+                margin: EdgeInsets.only(top: 90, left: 165, right: 165),
+                child: Card(
+                  elevation: 5,
+                  margin: EdgeInsets.all(10),
+                  child: Stack(
+                    children: [
+                      Padding(
+                        padding: EdgeInsets.all(10),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Image.asset(
+                              'assets/images/awadhlogo.png',
+                              height: 65,
                             ),
-                            child: Text(
-                              'Home',
-                              style: TextStyle(color: Colors.black),
+                            ElevatedButton(
+                              onPressed: () {
+                                Navigator.pushNamed(context, '/home');
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    Color.fromARGB(255, 247, 216, 178),
+                              ),
+                              child: Text(
+                                'Home',
+                                style: TextStyle(color: Colors.black),
+                              ),
                             ),
-                          ),
-                          ElevatedButton(
-                            onPressed: () {
-                              Navigator.pushNamed(context, '/cps_lab_hardware');
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Color.fromARGB(255, 247, 216, 178),
+                            ElevatedButton(
+                              onPressed: () {
+                                Navigator.pushNamed(
+                                    context, '/cps_lab_hardware');
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    Color.fromARGB(255, 247, 216, 178),
+                              ),
+                              child: Text(
+                                'CPS Lab Hardwares',
+                                style: TextStyle(color: Colors.black),
+                              ),
                             ),
-                            child: Text(
-                              'CPS Lab Hardwares',
-                              style: TextStyle(color: Colors.black),
+                            ElevatedButton(
+                              onPressed: () {
+                                Navigator.pushNamed(context, '/cpsLab');
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    Color.fromARGB(255, 247, 216, 178),
+                              ),
+                              child: Text(
+                                'CPS Lab Tutorial',
+                                style: TextStyle(color: Colors.black),
+                              ),
                             ),
-                          ),
-                          ElevatedButton(
-                            onPressed: () {
-                              Navigator.pushNamed(context, '/cpsLab');
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Color.fromARGB(255, 247, 216, 178),
+                            ElevatedButton(
+                              onPressed: () {
+                                Navigator.pushNamed(context, '/aboutUs');
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    Color.fromARGB(255, 247, 216, 178),
+                              ),
+                              child: Text(
+                                'About Us',
+                                style: TextStyle(color: Colors.black),
+                              ),
                             ),
-                            child: Text(
-                              'CPS Lab Tutorial',
-                              style: TextStyle(color: Colors.black),
-                            ),
-                          ),
-                          ElevatedButton(
-                            onPressed: () {
-                              Navigator.pushNamed(context, '/aboutUs');
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Color.fromARGB(255, 247, 216, 178),
-                            ),
-                            child: Text(
-                              'About Us',
-                              style: TextStyle(color: Colors.black),
-                            ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
-              ),
-              
               SizedBox(height: 10),
               Container(
                 margin: EdgeInsets.only(left: 20, right: 20),
@@ -156,7 +159,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     SizedBox(height: 5),
-
                     Text(
                       'Agriculture & Water Technology Development Hub (AWaDH)',
                       style: TextStyle(
@@ -168,9 +170,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     SizedBox(height: 20),
                     CarouselSlider(
-                      carouselController: _carouselController,
+                      carouselController: carouselController,
                       options: CarouselOptions(
-                        
                         height: 400,
                         aspectRatio: 16 / 9,
                         autoPlay: false,
@@ -185,102 +186,81 @@ class _MyHomePageState extends State<MyHomePage> {
                         'home_page_2.png',
                         'home_page_3.png',
                         'home_page_4.png',
-
-                      ].map((image) {
-                        return Builder(
-                          
-                          builder: (BuildContext context) {
-                                 
-
-                            return Container(
-                              width: MediaQuery.of(context).size.width,
-                              margin: EdgeInsets.symmetric(horizontal: 5.0),
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image: AssetImage(
-                                    './../assets/assets/images/$image',
+                      ].map(
+                        (image) {
+                          return Builder(
+                            builder: (BuildContext context) {
+                              return Container(
+                                width: MediaQuery.of(context).size.width,
+                                margin: EdgeInsets.symmetric(horizontal: 5.0),
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                      './../assets/assets/images/$image',
+                                    ),
                                   ),
                                 ),
-                              ),
-                            );
-                          },
-                        );
-                      },
+                              );
+                            },
+                          );
+                        },
                       ).toList(),
                     ),
-             Container(
-                margin: EdgeInsets.only(bottom: 170, left:165, right: 165),
-                child: 
-              
-              
-               
-
-                 Stack(
-                  children: [
-                    Padding(
-                      padding: EdgeInsets.all(10),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    Container(
+                      margin:
+                          EdgeInsets.only(bottom: 170, left: 165, right: 165),
+                      child: Stack(
                         children: [
-                          
-                          ElevatedButton(
-                            onPressed: () {
-                              Navigator.pushNamed(context, '/sensors');
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Color.fromARGB(255, 255, 255, 255),
-                            ),
-                            child: Text(
-                              'SENSORS',
-                              style: TextStyle(color: Colors.black,
-                               fontWeight: FontWeight.bold),
-                              
+                          Padding(
+                            padding: EdgeInsets.all(10),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                ElevatedButton(
+                                  onPressed: () {
+                                    Navigator.pushNamed(context, '/sensors');
+                                  },
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor:
+                                        Color.fromARGB(255, 255, 255, 255),
+                                  ),
+                                  child: Text(
+                                    'SENSORS',
+                                    style: TextStyle(
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                                SizedBox(width: 100),
+                                ElevatedButton(
+                                  onPressed: () {
+                                    Navigator.pushNamed(context, '/ContactUS');
+                                  },
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor:
+                                        Color.fromARGB(255, 255, 255, 255),
+                                  ),
+                                  child: Text(
+                                    'CONTACT US',
+                                    style: TextStyle(
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
-                          SizedBox(width: 100),
-                          ElevatedButton(
-                            onPressed: () {
-                              Navigator.pushNamed(context, '/ContactUS');
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Color.fromARGB(255, 255, 255, 255),
-                            ),
-                            child: Text(
-                              'Contact Us',
-                              style: TextStyle(color: Colors.black),
-                            ),
-                          ),
-                          
                         ],
                       ),
                     ),
                   ],
                 ),
-              
-              ), 
-          
-        ],
               ),
-              ),
-  
-
-                  ],
-  ),
-),
-
-
-
-
-
-            
+            ],
           ),
-        );
-            
-      
-      
-    
-    
-    
+        ),
+      ),
+    );
   }
 
   Widget buildCardWithImage(
@@ -334,4 +314,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
